@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Global Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family:  'Montserrat';
+    box-sizing: border-box;
+    background-color: #1b191a;
+    color: white; /* Add this line to change the text color */
+}
+
+/* Landing Page Styles */
+.container-grid {
+    display: grid;
+    grid-template-areas: 
+        'header header header header'
+        'aside section1 section1 section1'
+        'aside section2 section3 section3'
+        'aside section2 section4 section5'
+        'footer footer footer footer';
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    height: 95%; 
+}
+
+.header {
+    grid-area: header;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header img {
+    max-width: 5%;
+    height: auto;
+}
+
+.aside {
+    grid-area: aside;
+    padding: 20px;
+    align-content:center;
+}
+
+ul {
+    padding-left: 5px;
+    list-style-type:disc
+}
+
+ul li {
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    font-family: 'Comfortaa', sans-serif;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Comfortaa', sans-serif;
+    text-align: left;
+    margin-top: 0;
+}
+
+.title {
+    margin: 0.2em 0.5em;
+    font-size: 40pt;
+    text-align: left;
+}
+
+.section1, .section2, .section3, .section4, .section5 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section1 {
+    grid-area: section1;
+}
+
+.info {
+    margin: 0 26px;
+}
+
+.section2 {
+    grid-area: section2;
+}
+.section2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section3 {
+    grid-area: section3;
+    
+}
+
+.section4 {
+    grid-area: section4;
+    justify-content: flex-start;
+    padding: 20;
+}
+
+.section4 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.price{
+    text-align: left;
+    font-size: 24pt;
+    margin: 0 0;
+    
+}
+
+.section5 {
+    grid-area: section5;
+    justify-content: flex-start;
+}
+
+.htdTitle{
+    margin-top: 10px;
+}
+.section5 img{
+    max-width: 50%;
+    height: auto;
+}
+
+.htd {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.distance {
+    margin-right: 64pt;
+    align-self: center;
+}
+
+
+.footer {
+    grid-area: footer;
+
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-link{
+    color: rgb(213, 242, 255)
+    
+}
+.contact-link:hover {
+    color: black;
+}
+
+/* Contact Page Styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px 50px  ;
+}
+
+.head {
+    padding: 20px;
+    text-align: center;
+}
+
+.left-section {
+    width: 40%;
+    padding-left: 80px;
+}
+
+.right-section {
+    width: 45%;
+}
+
+.product-image {
+    align-content: center;
+}
+
+.product-image {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+
+}
+
+.product-image img{
+    max-width: 70%;
+    height: auto;
+}
+
+.product-text {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(213, 242, 255);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(159, 179, 189);
+}
+
+.back-home {
+    margin-top: 20px;}
