@@ -17,17 +17,6 @@ This project features a landing page to showcase a product or service, along wit
 - **Responsive Design**: The layout adjusts to different screen sizes.
 - **Navigation**: Links between the landing page and contact form.
 
-## Acceptance Criteria
-
-- Content can be in English or Spanish.
-- The landing page follows the provided structure and creatively presents product information.
-- Both Grid and Flexbox are used effectively.
-- The design is clean and visually appealing.
-- The landing page contains at least two images.
-- A link connects the landing page to the contact form, and vice versa.
-- The contact form has required fields, email validation, and a 255-character limit for the textarea.
-- All files are organized in a single folder.
-
 ## How to View
 
 1. **Clone the Repo**: 
